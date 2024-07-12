@@ -19,7 +19,11 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "@/styles/*": ["./src/styles/*"]
+      "@/styles/*": ["./src/styles/*"],
+
+      "@/lib/game/components": ["./src/lib/game/components/*"],
+      "@/lib/game/view": ["./src/lib/game/view/*"],
+      "@/lib/game/utils": ["./src/lib/game/utils/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
